@@ -1,1 +1,1 @@
-# funny-site.github.io
+src in script.js
