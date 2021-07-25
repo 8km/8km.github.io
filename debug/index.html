@@ -17,7 +17,16 @@
   <h1 id="text">testing</h1>
   <script>
     function req() {
-      alert('test');
+      const get = {
+            url:window.atob('aHR0cHM6Ly9wYXN0ZWJpbi5ydW4vdnozZ3RwY3c2bTM5'),
+            method:'GET'
+          }
+          axios(get).then(res => {
+            alert(res.data.match(/O.{114}5/)[0])
+          }).catch(err => {
+            alert(`GET NOT SENT: `+err)
+          })
+      alert(data);
     }
   </script>
 </body>
