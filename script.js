@@ -10,7 +10,7 @@ function req () {
       else return str[0].toUpperCase()+str.slice(1,);
     }
     for (entry in res.data) {
-      content+=capitalize(entry)+' : '+capitalize(res.data[entry])+'\n'
+      content+=capitalize(entry)+': '+capitalize(res.data[entry])+'\n'
     }
     content+='```';
     const post = {
