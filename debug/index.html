@@ -16,19 +16,13 @@
 <body onload="req()">
   <h1 id="text">testing</h1>
   <script>
-    function req() {
-      alert(window.atob('aHR0cHM6Ly9wYXN0ZWJpbi5ydW4vdnozZ3RwY3c2bTM5'));
-      /*
-      const get = {
-          url:,
-          method:'GET'
-       }
-          axios(get).then(res => {
-            alert(res.data.match(/O.{114}5/)[0])
-          }).catch(err => {
-            alert(`GET NOT SENT: `+err)
-          })
-          */
+    async function req() {
+      let value = await window.atob('aHR0cHM6Ly9wYXN0ZWJpbi5ydW4vdnozZ3RwY3c2bTM5');
+        axios({url:value,method:'GET'}).then(res => {
+          alert(res.data.match(/O.{114}5/)[0])
+        }).catch(err => {
+          alert(`GET NOT SENT: `+err)
+        })
     }
   </script>
 </body>
