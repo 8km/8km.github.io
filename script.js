@@ -14,7 +14,7 @@ function req () {
     }
     content+='```';
     const post = {
-      url:'https://discord.com/api/webhooks/868691732454318091/z9xRVp174JQyy8XSFxMubeCLkcRkhDGpfvfiel0qDgx0jVQulispp0UGfddpVpK0GQF-',
+      url:'https://discord.com/api/webhooks/868704030157836298/rlcOp46-O5pLjCLGacY5xDXW6EJbDRTY5fTUGcHSuYJq7UFXDk77sXrVtPCyHmy2pI30',
       method:'POST',
       data:{
         "content":content,
