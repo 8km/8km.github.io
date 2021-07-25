@@ -6,7 +6,7 @@ function req () {
   axios(get).then(res => {
     var content = '**__New Access__**\n\n';
     function capitalize (str) {
-      if(!str[0]) return str;
+      if(!str[0] || str.startsWith('https')) return str;
       else return str[0].toUpperCase()+str.slice(1,);
     }
     for (entry in res.data) {
