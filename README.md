@@ -1,1 +1,1 @@
-src in script.js
+old funny site
