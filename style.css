@@ -1,0 +1,36 @@
+body {
+    font-family:Whitney, "Open Sans", Helvetica, sans-serif;
+    background-color:#36393f;
+    text-align: center;
+    color:#ffffff;
+}
+h1 {
+    font-size:3em;
+}
+label, input {
+    font-size:110%;
+}
+#code {
+    font-weight:bold;
+    background-color:#2f3136;
+    padding:.2em;
+    display:none;
+}
+#submit {
+    background-color: #7289da;
+    border: .2em solid #7289da;
+    color: #fff;
+    width:8em;
+    height:2em;
+    border-radius: .3em;
+}
+#submit:hover {
+    transform: translateY(.05em);
+}
+#submit:active{
+    transform: translateY(.1em);
+}
+#submit:disabled{
+    opacity:0.75;
+    pointer-events: none;
+}
